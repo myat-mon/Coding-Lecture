@@ -3,23 +3,50 @@
 <head>
     <meta name="viewport" content="width=device-width, intitial-scale=1.0">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <llink rel="stylesheet" href="minimal.css">
     <meta charset="UTF-8">
     <title>Card Component</title>
     <style>
-    .banner {
-  position: absolute;
-  left: 40px;
-  width: calc(100% - 80px);
-  border: solid black 1px;
-  box-shadow: 1px 2px;
-  background-color: yellow;
-  padding: 6px;
-  text-align: center;
-  box-sizing: border-box;
-}
+      body,.container {
+        width: 75%;
+        margin: 0 auto;
+      }
+      .banner {
+        position: absolute;
+        left: 40px;
+        width: 80%;
+        height: calc(30% - 5rem);
+        border: solid black 1px;
+        box-shadow: 1px 2px;
+        background-color: yellow;
+        padding: 6px;
+        text-align: center;
+        box-sizing: border-box;
+      }
     </style>
 </head>
 <body>
+  <div class="container">
+    <pre class="brush: css notranslate">
+      <code><span class="token selector">.banner</span> <span class="token punctuation">{</span>
+      <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+      <span class="token property">left</span><span class="token punctuation">:</span> 40px<span class="token punctuation">;</span>
+      <span class="token property">width</span><span class="token punctuation">:</span> 80%<span class="token punctuation">;</span>
+      <span class="token property">height</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span>30% - 5rem<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token property">border</span><span class="token punctuation">:</span> solid black 1px<span class="token punctuation">;</span>
+      <span class="token property">box-shadow</span><span class="token punctuation">:</span> 1px 2px<span class="token punctuation">;</span>
+      <span class="token property">background-color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
+      <span class="token property">padding</span><span class="token punctuation">:</span> 6px<span class="token punctuation">;</span>
+      <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+      <span class="token property">box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+       <span class="token punctuation">}</span>
+     </code>
+    </pre>
+
     <div class="banner">This is a banner!</div>
+
+  </div>
+
+    
 </body>
 </html>
